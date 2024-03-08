@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Menu Burguers</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/fontawesome.css" />
+        <link rel="stylesheet" href="./css/animate.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/responsivo.css" />
+
+    </head>
+
+    <body>
+
+        <div class="container-mensagens" id="container-mensagens">
+
+        </div>
+
+        <a class="botao-carrinho animated bounceIn hidden">
+            <div class="badge-total-carrinho">0</div>
+            <i class="fa fa-shopping-bag"></i>
+        </a>
+
+
+        
+        
+            <div class="container">
+                <nav class="navbar navbar-expand-lg pl-0 pr-0 col-one">
+                    <a class="navbar-brand wow fadeIn" href="#">
+                        <img src="./img/logo.png" width="160" class="img-logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto mr-auto wow fadeIn">
+                            <li class="nav-item">
+                                <a href="#reservas" class="nav-link"><b>Reservas</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#servicos" class="nav-link"><b>Serviços</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#cardapio" class="nav-link"><b>Cardápio</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-white btn-icon wow fadeIn">
+                            Meu carrinho <span class="icon">
+                                <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
+                                <i class="fa fa-shopping-bag"></i>
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one">
+                        <div class="d-flex text-banner">
+                            <h1 class="wow fadeInLeft"><b>Experimente nossos deliciosos<b class="color-primary"> burguers!</b></b></h1>
+                            <p class="wow fadeInLeft delay-02s">
+                                Aproveite nosso cardápio! Escolha o que desejar e recebe em sua casa de forma rápida e segura.
+                            </p>
+                            <div class="wow fadeIn delay-05s">
+                                <a href="#cardapio" class="btn btn-yellow mt-4 mr-3">
+                                    Ver cardápio
+                                </a>
+                                <a href="#" class="btn btn-white btn-icon-left mt-4">
+                                    <span class="icon-left">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    (11) 9658-9246
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://www.instagram.com/limafront/" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-05s">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-6 no-mobile">
+                        <div class="card-banner wow fadeIn delay-02s"></div>
+                        <div class="d-flex img-banner wow fadeIn delay-05s">
+                            <img src="./img/burguer.png" />
+                        </div>
+                        <div class="card card-case wow fadeInRight delay-07s">
+                            "Entrega rápida e funcionários simpáticos.
+                            <br>Lanches deliciosos"
+                            <span class="card-case-name">
+                                <b>Thiago Lopes</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <div class="background-servicos"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-one text-center mb-5 wow fadeIn">
+                        <span class="hint-title"><b>Serviços</b></span>
+                        <h1 class="title">
+                            <b>Como são nossos serviços?</b>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-pedido.svg" width="150" />
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Fácil de pedir</b></p>
+                            <span>
+                                Você só precisa de alguns passos para pedir sua comida.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-delivery.svg" width="250" />
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Entrega rápida</b></p>
+                            <span>
+                                Nossa entrega é sempre pontual, rápida e segura.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp">
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-qualidade.svg" width="250" />
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Melhor qualidade</b></p>
+                            <span>
+                                Não só a rapidez na entrega, a qualidade também é o nosso forte.
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+
+            <div class="background-cardapio"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-one text-center mb-2 wow fadeIn">
+                        <span class="hint-title"><b>Cardápio</b></span>
+                        <h1 class="title">
+                            <i class="fas fa-hamburger"></i>
+                             <b>Conheça o nosso cardápio</b>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 col-one container-menu wow fadeInUp">
+                    </div>
+
+                    <div class="col-12 col-one">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Simples da casa</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 25,00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Clássico Americano</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 28,90</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Burger do Cowboy</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 30,00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">o</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-47.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Combo Duplo Delícia</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 34,99</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/the-burger-bash-package.bd9d12d031865940bbe5faf15f1a62f8.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Combo 2</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 35,99</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>King de picles</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 34,99</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/shake-shack-shackburger-16-pack.316f8b09144db65931ea29e34869287a.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Buerguers kids</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 23,50</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+                            
+                            <div class="col-lg-3 col-md-3 col-sm-6 mt-4">
+                                <div class="card card-item">
+                                    <div class="img-produto">
+                                        <img src="./img/cardapio/burguers/usda-prime-burgers-pack-of-18-8oz-each.274c67f15aa1c0b210dbf51801706670.jpg" alt="">
+                                    </div>
+                                    <p class="title-produto text-center mt-4"><b>Grande Fryday</b></p>
+                                    <p class="price-produto">
+                                        <b> R$ 40,00</b>
+                                    </p>
+                                    <div class="add-carrinho">
+                                        <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                                        <span class="add-numero-itens">0</span>
+                                        <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                                        <span class="btn btn-add"><i class="fas fa-shopping-bag"></i></span>
+                                    </div>
+                                </div>
+
+                        
+                            </div>
+
+
+                    </div>
+                
+
+                </div>
+            </div>
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+
+            <div class="background-depoimentos"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-5 no-mobile text-center">
+                        <div class="card-depoimentos wow fadeIn"></div>
+                        <div class="d-flex img-banner wow fadeInLeft delay-02s">
+                            <img src="./img/Lanche.png "/>
+                        </div> 
+                    </div>
+
+                    <div class="col-12 col-lg-7 col-md-7 col-sm-12 col-one">
+                        <span class="hint-title wow fadeIn"><b>Depoimentos</b></span>
+                        <h1 class="title wow fadeIn">
+                            <b>O que dizem sobre nós?</b>
+                        </h1>
+                        <div class="mb-5">
+
+                            <div class="depoimento animated fadeIn" id="depoimento-1">
+                                <div class="container-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>Robert Moraes</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>&nbsp; <span>4.5</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        Muito bom, recomendo demais!Cara, sério, esses hambúrgueres são demais! Sempre recomendo aqui na região. 
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+
+
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="reserva" id="reservas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-one">
+
+                        <div class="card-secondary wow fadeInUp">
+
+                            <div class="row">
+
+                                <div class="col-12 col-lg-7 col-md-7 col-sm-12">
+                                    <span class="hint-title"><b>Reserva</b></span>
+                                    <h1 class="title">
+                                        <b>Faça agora seu pedido!</b>
+                                    </h1>
+                                    <p class="pr-5">
+                                        Mande uma mensagem clicando no botão abaixo
+                                        <br>
+                                        que já preparamos o seu pedido! 
+                                    </p>
+                                    <a class="btn btn-yellow mt-4 wow fadeIn delay-05s" href="#" id="btnReserva" target="_blank">
+                                        Fazer pedido
+                                    </a>
+                                </div>
+
+                                <div class="col-5 no-mobile">
+                                    <div class="card-reserva"></div>
+                                    <div class="d-flex img-banner">
+                                        <img src="./img/icone-reserva.svg" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one container-logo-footer wow fadeIn">
+                        <img class="logo-footer" src="./img/logo.png" />
+                    </div>
+
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one container-texto-footer wow fadeIn">
+                        <p class="mb-0">
+                            <b>Menu On-line</b> &copy; Todos os direitos reservados
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one container-redes-footer wow fadeIn">
+                        <a class="btn btn-sm btn-white btn-social mr-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mr-3">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/popper.min.js"></script>
+        <script type="text/javascript" src="./js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+
+    </body>
+
+</html>
